@@ -1,0 +1,24 @@
+<section id="box">
+<h1>A Sample TODO Application</h1>
+<article id="">
+<form class="todoForm" ng-submit="todoSubmit()">
+<label>Task to remember</label>
+<input type="text" ng-model="todo.task">
+<div class="mT10"><input type="submit" value="add"></div>
+</form>
+
+<section>
+	<article class="inline-block">
+		<h1>Tasks Remaining</h1>
+		<p ng-if="msg">There is no task to complete</p>
+		<div ng-repeat="list in data track by $index">
+			<span ng-bind="list"></span><span><button class="" ng-click="addList(list)">done</button></span>
+		</div>
+	</article>
+	<article class="inline-block top mL15">
+		<h1>Tasks Completed</h1>
+		<p style="border:1px solid #fff" ng-repeat="list in data1 track by $index" ng-bind="list"></p>
+	</article>
+</section>	
+</article>
+</section>

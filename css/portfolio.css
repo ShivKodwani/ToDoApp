@@ -1,0 +1,93 @@
+body{
+	background-color:#008080;
+	padding: 30px 15px 30px 15px;
+	color: #fff;
+}
+#portfolio-nav{
+	float:left;
+	width: 300px;
+	height:auto;
+	//background-color: white;
+	border: 2px solid #A9A9A9;
+}
+.profile{
+	margin-top: 20px;
+	margin-bottom: 45px;
+	color: white;
+}
+.image{
+	margin:auto;
+	display: block;
+	width:100px;
+}
+.round-img{
+	border-radius: 50%;
+}
+#box{
+	border:1px solid white;
+	width:90%;
+	min-height:300px;
+	padding: 15px;
+}
+.content{
+	float:right;
+	margin-right:20px;
+}
+.center{
+	text-align:center;
+}
+
+.profile h1{
+	padding-top:10px;
+}
+.hr-small{
+	width: 175px;
+    height: 3px;
+    background-color: blue;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+.nav-list li{
+	border-top: 1px solid white;
+}
+.nav-list li:last-child{
+	border-bottom:1px solid white;
+}
+.nav-list li a{
+	text-decoration: none;
+	display:block;
+	padding: 10px 0 10px 20px;
+	color: white
+}
+.nav-list li a:focus{
+	background-color: #ffffff;
+	color:#008B8B;
+}
+label {
+	width: 100%;
+	display: block;
+	margin-bottom: 10px;
+}
+.mT10{
+	margin-top: 10px;
+}
+.mL15{
+	margin-left: 15px;
+}
+.todoForm {
+	display: inline-block;
+}
+.taskBtn{
+	margin-left: -125px;
+}
+.inline-block{
+	display: inline-block;
+}
+.top{
+	vertical-align:top;
+}
