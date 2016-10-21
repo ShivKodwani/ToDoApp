@@ -1,2 +1,2 @@
 # ToDoApp
-A sample to do listing application
+A sample ToDo listing application.
